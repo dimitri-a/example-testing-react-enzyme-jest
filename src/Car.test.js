@@ -19,7 +19,7 @@ describe('<Car />', () => {
   it('renders the heading', () => {
     const heading = wrapper.find('#car--heading');
     expect(heading).toHaveLength(1);
-    expect(heading.text()).toEqual('I am a red car');
+    expect(heading.text()).toEqual('I am a red cars');
   });
   // check child components are called correctly
   it('has a diesel engine', () => {
@@ -27,7 +27,7 @@ describe('<Car />', () => {
     // then you will likely need to find by class otherwise
     // finding by string (e.g. 'Engine') will work
     const engine = wrapper.find(Engine);
-    expect(engine.prop('type')).toEqual('diesel');
+    expect(engine.prop('type')).toEqual('dieselh');
   });
   // check actions
   it('calls handleStartCar on button click', function () {
