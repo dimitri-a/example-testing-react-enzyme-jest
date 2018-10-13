@@ -21,6 +21,7 @@ describe('<App />', () => {
       isRunning: false,
       handleStartCar: () => {}
     };
+    debugger
     const wrapper = shallow(<App {...props} />);
     const car = wrapper.find(Car);
     expect(car).toHaveLength(1);

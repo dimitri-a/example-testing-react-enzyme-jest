@@ -17,6 +17,7 @@ describe('<Car />', () => {
   // check dynamic data renders correctly
   // find elements by ID
   it('renders the heading', () => {
+    debugger
     const heading = wrapper.find('#car--heading');
     expect(heading).toHaveLength(1);
     expect(heading.text()).toEqual('I am a red cars');

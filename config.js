@@ -1,3 +1,3 @@
 {
-    test:"this is my local version"
+    test:"this is my local version updated"
 }
