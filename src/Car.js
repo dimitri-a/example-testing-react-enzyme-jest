@@ -10,7 +10,7 @@ export function Car({ color, handleStartCar }) {
     <div>
       {/* Find and test dynamic data by id */}
       <h1 id='car--heading' style={{ color }}>
-        I am a {color} car update hahahah
+        I am a {color} car update hahahah wooohooooo
       </h1>
       <Engine type='diesel' />
       <button
